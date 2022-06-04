@@ -1,0 +1,22 @@
+body {
+    display: grid;
+
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#page_header {
+    min-height: 50px;
+    background-color: darkgreen;
+}
+
+#main_container {
+    min-height: calc(100vh - 100px);
+    background-color: blue;
+}
+
+#page_footer {
+    min-height: 80px;
+    background-color: cadetblue;
+}
