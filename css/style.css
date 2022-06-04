@@ -6,9 +6,30 @@ body {
     padding: 0px;
 }
 
+img {
+    width: 100%;
+}
+
 #page_header {
     min-height: 50px;
-    background-color: darkgreen;
+    background-color: rgb(208, 193, 193);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    justify-items: start;
+}
+
+#img_header {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+#nav_header {
+    justify-self: end;
+    margin-right: 20px;
 }
 
 #main_container {
