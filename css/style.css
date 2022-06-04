@@ -14,9 +14,9 @@ img {
     min-height: 50px;
     background-color: rgb(208, 193, 193);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
-    justify-items: start;
+    justify-items: center;
 }
 
 #img_header {
@@ -30,6 +30,10 @@ img {
 #nav_header {
     justify-self: end;
     margin-right: 20px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
 }
 
 #main_container {
